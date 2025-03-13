@@ -1,4 +1,5 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -34,12 +35,16 @@ function Home() {
           </Col>
         </Row>
         <div className="mt-4">
-          <Button variant="dark" href="/projects" className="mx-2" aria-label="View My Projects">
-            Explore Projects
-          </Button>
-          <Button variant="outline-dark" href="/about" className="mx-2" aria-label="Learn More About Me">
-            More About Me
-          </Button>
+          <Link to="/projects"> {}
+            <Button variant="dark" className="mx-2" aria-label="View My Projects">
+              Explore Projects
+            </Button>
+          </Link>
+          <Link to="/about"> {}
+            <Button variant="outline-dark" className="mx-2" aria-label="Learn More About Me">
+              More About Me
+            </Button>
+          </Link>
         </div>
       </div>
     </Container>

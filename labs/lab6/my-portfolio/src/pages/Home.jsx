@@ -35,12 +35,12 @@ function Home() {
           </Col>
         </Row>
         <div className="mt-4">
-          <Link to="/projects"> {}
+          <Link to="/projects">
             <Button variant="dark" className="mx-2" aria-label="View My Projects">
               Explore Projects
             </Button>
           </Link>
-          <Link to="/about"> {}
+          <Link to="/about">
             <Button variant="outline-dark" className="mx-2" aria-label="Learn More About Me">
               More About Me
             </Button>
